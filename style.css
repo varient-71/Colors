@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 20px 0px;
+    background-color: #333333;
+    color: antiquewhite;
+    text-align: center;
+
+}
+.container{
+    margin: 20px;
+    padding: 20px;
+    border:solid 2px whitesmoke;
+    text-align: center;
+    border-radius: 10px;
+}
+.header{
+    padding:20px;
+    border:solid 2px whitesmoke;
+    border-radius: 10px;
+}
+.content{
+    margin:20px 0;
+    padding:20px;
+    border:solid 2px whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    row-gap: 10px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+.colorBox{
+    min-width: 100px;
+    max-width: 200px;
+    min-height: 100px;
+    flex-grow: 1;
+    border-radius: 10px;
+}
+.controls{
+    padding: 20px 0;
+    background-color: rgb(152, 245, 40);
+    text-align: center;
+    border-radius: 10px;
+}
+#white{
+    background-color: white;
+}
+#green{
+    background-color: green;
+}
+#blue{
+    background-color: blue;
+}
+#red{
+    background-color: red;
+}
+#orange{
+    background-color: orange;
+}
+#pink{
+    background-color: pink;
+}
+#black{
+    background-color: black;
+}
+#purple{
+    background-color: purple;
+}
+#brown{
+    background-color: brown;
+}
+#indigo{
+    background-color: indigo;
+}
+#grey{
+    background-color: grey;
+}
+#yellow{
+    background-color: yellow;
+}
+.correct{
+    background-color:  rgb(127, 227, 4);
+}
+.incorrect{
+    background-color: rgb(255, 48, 48);
+}
+
